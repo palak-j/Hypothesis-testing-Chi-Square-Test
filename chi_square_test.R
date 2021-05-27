@@ -1,8 +1,4 @@
-
 #Example 1
-
-
-
 
 observed <- c(45, 40, 65)
 names(observed) <- c("A", "B", "C")
@@ -10,8 +6,6 @@ barplot(observed, density = 10, col = "blue", ylab =
           "Number of Preference")
 result1 <- chisq.test(observed, correct = FALSE)
 result1
-
-
 
 
 # Here X-squared value is 7 and p value = 0.0302
